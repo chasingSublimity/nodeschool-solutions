@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/chasingSublimity/nodeschool-solutions#readme",
   "dependencies": {
-    "bl": "^1.2.1"
+    "bl": "^1.2.1",
+    "through2-map": "^3.0.0"
   }
 }
