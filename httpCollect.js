@@ -4,9 +4,8 @@ const url = process.argv[2];
 
 http.get(url, res => {
 	res.setEncoding('utf8');
-
+	
 	let finishedData = [];
-
 	res.on('data', data => {
 		finishedData.push(data);
 	});
